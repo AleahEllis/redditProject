@@ -17,7 +17,19 @@ $(document).ready(function(){
    // console.log(url);
 
     var firstImage = $("<img />").attr("src", url);
-          $('#tiles').append([firstStory, firstImage]);
+    var col= $('<div class="col-xs-12 col-md-8"></div>');
+    var row= $('<div class="row"></div>');
+          
+      col.append([firstStory, firstImage]);
+      row.append(col);
+      $('#tiles').append(row);
+          
+          // $(#"col-xs-12 col-md-8").append([firstStory, firstImage])
+
+
+
+
+   
  	
  	
 		

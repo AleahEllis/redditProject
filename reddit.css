@@ -1,4 +1,4 @@
-.bordbox{
+/*.bordbox{
   width: 22%;  
   margin: 0.3em;
   height: 10em;
@@ -12,4 +12,19 @@
 .bordbox:hover {
   opacity: 0.6;
   cursor: pointer;
+}*/
+
+/*col{
+margin: 1em;
+background-color: grey;
+
+}*/
+
+.col-xs-12 { /*had to split these*/
+  background-color: grey;
+  margin-bottom: .5em
+}
+
+.col-md-8{
+  background-color: grey;
 }
