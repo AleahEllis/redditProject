@@ -1,0 +1,15 @@
+.bordbox{
+  width: 22%;  
+  margin: 0.3em;
+  height: 10em;
+  padding: 0;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #0E5C23;
+}
+
+
+.bordbox:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
